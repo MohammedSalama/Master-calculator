@@ -126,4 +126,11 @@ class cal extends abscal implements stdcal , stddrawcal
         </form>
         ';
     }
+    
+    public function __destruct()
+    {
+        echo "The End";
+    }
+    
+    
 }
